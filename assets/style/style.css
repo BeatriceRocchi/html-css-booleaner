@@ -5,7 +5,7 @@
 }
 
 body {
-  /* Inserire font */
+  font-family: "Roboto", sans-serif;
 }
 
 /* HEADER */
@@ -22,9 +22,9 @@ header {
   bottom: 10%;
 }
 
-/* MAIN - Article introduction */
-
-main {
+/* MAIN - Introduction and text*/
+main,
+ul {
   padding: 0 15px;
 }
 
@@ -32,15 +32,49 @@ main h1 {
   font-size: 3em;
 }
 
+p,
+table {
+  margin: 20px 0 20px;
+}
+
 .text-grey {
   color: rgb(128, 128, 128);
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .text-blue {
   color: rgb(11, 161, 226);
 }
 
-.carousel {
-  padding-top: 20px;
+.highlight {
+  background-color: yellow;
+}
+
+#sources {
+  font-size: 0.8em;
+  margin-top: 0;
+}
+
+/* MAIN - Table */
+table {
+  border-collapse: collapse;
+}
+
+thead th {
+  color: white;
+  background-color: rgb(11, 161, 226);
+  text-align: left;
+}
+
+.first-coloumn,
+.second-cloumn {
+  width: 20%;
+}
+
+.third-coloumn {
+  width: 60%;
+}
+
+.blue-row {
+  background-color: rgb(177, 229, 242);
 }
