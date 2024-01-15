@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   /* Inserire font */
 }
@@ -5,11 +11,36 @@ body {
 /* HEADER */
 header {
   height: 180px;
-  background-color: #4ea0ff;
+  background-color: rgb(78, 160, 255);
   background-image: url(../img/pattern.png);
+  position: relative;
 }
 
 #logo {
   height: 100px;
-  padding-top: 60px;
+  position: absolute;
+  bottom: 10%;
+}
+
+/* MAIN - Article introduction */
+
+main {
+  padding: 0 15px;
+}
+
+main h1 {
+  font-size: 3em;
+}
+
+.text-grey {
+  color: rgb(128, 128, 128);
+  font-size: 1.5em;
+}
+
+.text-blue {
+  color: rgb(11, 161, 226);
+}
+
+.carousel {
+  padding-top: 20px;
 }
