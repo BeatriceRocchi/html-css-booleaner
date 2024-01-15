@@ -23,7 +23,7 @@ header {
 }
 
 /* MAIN - Introduction and text*/
-main,
+main, footer,
 ul {
   padding: 0 15px;
 }
@@ -77,4 +77,24 @@ thead th {
 
 .blue-row {
   background-color: rgb(177, 229, 242);
+}
+
+
+/* FOOTER */
+.article {
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 300px;
+  height: 200px;
+  margin: 10px 0 10px 0;
+  padding: 10px;
+}
+
+#monitor {
+  background-image: url(../img/monitor.jpg);
+}
+
+#graph {
+  background-image: url(../img/graph.jpg);
 }
