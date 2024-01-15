@@ -23,7 +23,10 @@ header {
 }
 
 /* MAIN - Introduction and text*/
-main, footer,
+main, footer {
+  padding: 0 200px;
+}
+
 ul {
   padding: 0 15px;
 }
